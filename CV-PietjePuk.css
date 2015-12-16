@@ -1,0 +1,613 @@
+        /* Font Definitions */
+/*        
+        @font-face {
+            font-family: Wingdings;
+            panose-1: 5 0 0 0 0 0 0 0 0 0;
+        }
+        
+        @font-face {
+            font-family: Wingdings;
+            panose-1: 5 0 0 0 0 0 0 0 0 0;
+        }
+        
+        @font-face {
+            font-family: Calibri;
+            panose-1: 2 15 5 2 2 2 4 3 2 4;
+        }
+        
+        @font-face {
+            font-family: Tahoma;
+            panose-1: 2 11 6 4 3 5 4 4 2 4;
+        }
+        
+        @font-face {
+            font-family: "USoft2010 Lite";
+            panose-1: 0 0 0 0 0 0 0 0 0 0;
+        }
+        /* Style Definitions */
+  */      
+        p.MsoNormal,
+        li.MsoNormal,
+        div.MsoNormal {
+            margin-top: 0cm;
+            margin-right: 0cm;
+            margin-bottom: 10.0pt;
+            margin-left: 0cm;
+            line-height: 115%;
+            font-size: 11.0pt;
+            font-family: "Calibri", "sans-serif";
+        }
+        
+        p.MsoHeader,
+        li.MsoHeader,
+        div.MsoHeader {
+            mso-style-link: "Koptekst Char";
+            margin-top: 0cm;
+            margin-right: 0cm;
+            margin-bottom: 10.0pt;
+            margin-left: 0cm;
+            line-height: 115%;
+            font-size: 11.0pt;
+            font-family: "Calibri", "sans-serif";
+        }
+        
+        p.MsoFooter,
+        li.MsoFooter,
+        div.MsoFooter {
+            mso-style-link: "Voettekst Char";
+            margin-top: 0cm;
+            margin-right: 0cm;
+            margin-bottom: 10.0pt;
+            margin-left: 0cm;
+            line-height: 115%;
+            font-size: 11.0pt;
+            font-family: "Calibri", "sans-serif";
+        }
+        
+        a:link,
+        span.MsoHyperlink {
+            color: blue;
+            text-decoration: underline;
+        }
+        
+        a:visited,
+        span.MsoHyperlinkFollowed {
+            color: purple;
+            text-decoration: underline;
+        }
+        
+        p.MsoAcetate,
+        li.MsoAcetate,
+        div.MsoAcetate {
+            mso-style-link: "Ballontekst Char";
+            margin: 0cm;
+            margin-bottom: .0001pt;
+            font-size: 8.0pt;
+            font-family: "Tahoma", "sans-serif";
+        }
+        
+        p.MsoListParagraph,
+        li.MsoListParagraph,
+        div.MsoListParagraph {
+            margin-top: 0cm;
+            margin-right: 0cm;
+            margin-bottom: 10.0pt;
+            margin-left: 36.0pt;
+            line-height: 115%;
+            font-size: 11.0pt;
+            font-family: "Calibri", "sans-serif";
+        }
+        
+        p.MsoListParagraphCxSpFirst,
+        li.MsoListParagraphCxSpFirst,
+        div.MsoListParagraphCxSpFirst {
+            margin-top: 0cm;
+            margin-right: 0cm;
+            margin-bottom: 0cm;
+            margin-left: 36.0pt;
+            margin-bottom: .0001pt;
+            line-height: 115%;
+            font-size: 11.0pt;
+            font-family: "Calibri", "sans-serif";
+        }
+        
+        p.MsoListParagraphCxSpMiddle,
+        li.MsoListParagraphCxSpMiddle,
+        div.MsoListParagraphCxSpMiddle {
+            margin-top: 0cm;
+            margin-right: 0cm;
+            margin-bottom: 0cm;
+            margin-left: 36.0pt;
+            margin-bottom: .0001pt;
+            line-height: 115%;
+            font-size: 11.0pt;
+            font-family: "Calibri", "sans-serif";
+        }
+        
+        p.MsoListParagraphCxSpLast,
+        li.MsoListParagraphCxSpLast,
+        div.MsoListParagraphCxSpLast {
+            margin-top: 0cm;
+            margin-right: 0cm;
+            margin-bottom: 10.0pt;
+            margin-left: 36.0pt;
+            line-height: 115%;
+            font-size: 11.0pt;
+            font-family: "Calibri", "sans-serif";
+        }
+        
+        span.MsoSubtleEmphasis {
+            color: gray;
+            font-style: italic;
+        }
+        
+        span.MsoIntenseEmphasis {
+            color: #4F81BD;
+            font-weight: bold;
+            font-style: italic;
+        }
+        
+        span.BallontekstChar {
+            mso-style-name: "Ballontekst Char";
+            mso-style-link: Ballontekst;
+            font-family: "Tahoma", "sans-serif";
+        }
+        
+        span.KoptekstChar {
+            mso-style-name: "Koptekst Char";
+            mso-style-link: Koptekst;
+        }
+        
+        span.VoettekstChar {
+            mso-style-name: "Voettekst Char";
+            mso-style-link: Voettekst;
+        }
+        /* Page Definitions */
+        
+        /* @page rule is for paged media and it is an easy way to define styles for your pages in print style sheets. */
+/*
+        @page WordSection1 {
+            size: 595.3pt 841.9pt;
+            margin: 70.85pt 70.85pt 70.85pt 70.85pt;
+        }
+        
+        div.WordSection1 {
+            page: WordSection1;
+        }
+*/
+        /* List Definitions */
+        
+        ol {
+            margin-bottom: 0cm;
+        }
+        
+        ul {
+            margin-bottom: 0cm;
+        }
+
+        /*
+<span style='position:absolute;z-index:251657728;margin-left: 2px;margin-top:35px;width:599px;height:5px'>
+<span style='font-size:18.0pt;line-height:115%;font-family:"USoft2010 Lite"; color:#17365D'>Curriculum Vitae
+
+<p class=MsoNormal style='line-height:normal'>
+<span style='color:#17365D'>Personalia</span></b></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="99%" style='width:99.52%;border-collapse:collapse'>
+<tr style='page-break-inside:avoid;height:12.5pt'>
+<td width="18%" valign=top style='width:18.62%;padding:0cm 5.4pt 0cm 5.4pt; height:12.5pt'>
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'>Naam</p>
+<td width="49%" valign=top style='width:49.7%;border:none;border-right:solid white 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:12.5pt'>
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'>Bart Kijlstra
+<td width="31%" rowspan=6 valign=top style='width:31.68%;border:none; border-top:solid white 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:12.5pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<tr style='page-break-inside:avoid;height:12.5pt'>
+<td width="18%" valign=top style='width:18.62%;padding:0cm 5.4pt 0cm 5.4pt; height:12.5pt'>
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'>Geboortedatum</p>
+<td width="49%" valign=top style='width:49.7%;border:none;border-right:solid white 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:12.5pt'>
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'>2 februari 1955
+<tr style='page-break-inside:avoid;height:12.5pt'>
+<td width="18%" valign=top style='width:18.62%;padding:0cm 5.4pt 0cm 5.4pt; height:12.5pt'>
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'>Adres</p>
+<td width="49%" valign=top style='width:49.7%;border:none;border-right:solid white 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:12.5pt'>
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'>Leerdamhof 12
+<tr style='page-break-inside:avoid;height:12.5pt'>
+<td width="18%" valign=top style='width:18.62%;padding:0cm 5.4pt 0cm 5.4pt; height:12.5pt'>
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'>Telefoon</p>
+<td width="49%" valign=top style='width:49.7%;border:none;border-right:solid white 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:12.5pt'>
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'>06 1987 4146
+<tr style='page-break-inside:avoid;height:12.5pt'>
+<td width="18%" valign=top style='width:18.62%;padding:0cm 5.4pt 0cm 5.4pt; height:12.5pt'>
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'>Email</p>
+<td width="49%" valign=top style='width:49.7%;border:none;border-right:solid white 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:12.5pt'>
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'>
+<tr style='page-break-inside:avoid;height:20.4pt'>
+<td width="18%" valign=top style='width:18.62%;padding:0cm 5.4pt 0cm 5.4pt; height:20.4pt'>
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'>LinkedIn</p>
+<td width="49%" valign=top style='width:49.7%;border:none;border-right:solid white 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:20.4pt'>
+<p class=MsoNormal style='margin-bottom:6.0pt;line-height:normal'>
+
+<span style='font-size:12.0pt;line-height:115%;color:#17365D'>Profiel</span></b></p>
+
+
+<span style='font-size:12.0pt;line-height:115%; color:#17365D'>Loopbaan </span></b></p>
+
+
+
+<span style='font-size:12.0pt;line-height:115%; color:#17365D'>Vaardigheden</span></b></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=548 style='width:411.1pt;margin-left:5.4pt;border-collapse:collapse;border:none'>
+<tr style='height:18.05pt'>
+<td width=95 style='width:70.9pt;border:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt; height:18.05pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Talen, systemen
+<td width=454 style='width:12.0cm;border:solid windowtext 1.0pt;border-left: none;padding:0cm 5.4pt 0cm 5.4pt;height:18.05pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>SQL, PL/SQL (Oracle), C, Java, JSP, HTML, CSS, XML, Javascript.</p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>USoft Developer, Oracle databases, MS Windows en Unix.</p>
+<td width=95 style='width:70.9pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Natuurlijke talen
+<td width=454 valign=top style='width:12.0cm;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Nederlands (moedertaal)
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Engels (spreken, lezen en schrijven)</p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Duits (beperkt spreken en lezen)</p>
+<td width=95 style='width:70.9pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Rijbewijs</p>
+<td width=454 valign=top style='width:12.0cm;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>B-E</p>
+
+<span style='font-size:12.0pt;line-height:115%; color:#17365D'>Werkzaamheden</span></b></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 style='margin-left:5.4pt;border-collapse:collapse;border:none'>
+<tr style='height:6.8pt'>
+<td width=95 rowspan=3 valign=top style='width:70.9pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:6.8pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:9.0pt;line-height:115%'>Feb-jun 2014 en Aug-nov 2014</span></i></b></p>
+<td width=517 style='width:388.0pt;border:solid windowtext 1.0pt;border-left: none;padding:0cm 5.4pt 0cm 5.4pt;height:6.8pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>ONVZ zorgverzekeraar (via Devoteam)</span></b></p>
+<tr style='height:6.75pt'>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:6.75pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>&nbsp;</span></p>
+<tr style='height:6.75pt'>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:6.75pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Bij ONVZ zorgverzekeraar als Oracle PL/SQL en USoft software ontwikkelaar bij verschillende projecten (Scrum) betrokken:</span></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Taken</span></p>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Ontwikkelen van batchprogrammatuur waarmee berichtstromen met medische declaraties gecontroleerd en verwerkt worden. </span></li>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Schermen bouwen waarmee medewerkers de declaraties kunnen verwerken en inspecteren.</span></li>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Gegevensconversie t.b.v. een nieuw automatiseringssysteem.</span></li>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Activiteiten</span></p>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Oracle PS/SQL procedures geschreven voor berichtenverwerking en conversie.</span></li>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Gebruikersschermen gebouwd met USoft.</span></li>
+<tr style='height:6.8pt'>
+<td width=95 rowspan=16 valign=top style='width:70.9pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:6.8pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:9.0pt;line-height:115%'>2001 – </span></i></b></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:9.0pt;line-height:115%'>1e helft 2013</span></i></b></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>&nbsp;</span></b></p>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:6.8pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>USoft</span></b></p>
+<tr style='height:13.5pt'>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:13.5pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>USoft is een bedrijf dat de USoft software development suite heeft ontwikkelt. Ook verleent het ICT consultancy.</span></b></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Voor USoft Services heb ik als Oracle PL/SQL en USoft ontwikkelaar gewerkt bij verschillende bedrijven:</span></b></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>&nbsp;</span></b></p>
+<tr style='height:13.5pt'>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:13.5pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>ONVZ zorgverzekeraar (2008 – 2012)</span></b></p>
+<tr style='height:13.5pt'>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:13.5pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Bij ONVZ zorgverzekeraar als Oracle PL/SQL en USoft programmeur en technisch ontwerper betrokken geweest bij een reeks van projecten (Scrum) voor diverse onderdelen van de centrale bedrijfsapplicatie.</span></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Taken, o.m.</span></p>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Ontwikkelen van batchprogrammatuur voor de verwerking van digitale berichtstromen. </span></li>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Ontwikkelen van medewerkersschermen voor declaratieverwerking en klantenservice.</span></li>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Ontwikkelen van een systeem voor geautomatiseerde declaratietoewijzing naar medewerkers.</span></li>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Activiteiten </span></p>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Oracle PL/SQL programmatuur geschreven voor de berichtenverwerking.</span></li>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Ontwerp en bouw van SQL programmatuur en controleschermen (USoft) voor een geautomatiseerde werkverdeler.</span></li>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Bouw van gebruikersschermen (USoft).</span></li>
+<tr style='height:22.65pt'>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:22.65pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>SenterNovem (2007)</span></b></p>
+<tr style='height:20.0pt'>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:20.0pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Programmeur bij SenterNovem (agentschap van Ministerie van Economische Zaken). Het wilde de testen van haar bedrijfsapplicatie geautomatiseerd kunnen uitvoeren.</span></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Taak</span></p>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>De bestaande regressietest voor de bedrijfsapplicatie automatiseren.</span></li>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Activiteiten </span></p>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Scripts gebouwd voor SQL Server om verschillende bestaande tests te integreren en automatiseren (SQL, MS SQL Server, USoft).
+<tr style='height:18.85pt'>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:18.85pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Achmea zorgverzekeraar (2007):</span></b></p>
+<tr style='height:16.95pt'>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:16.95pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Programmeur voor zorgverzekeraar Achmea, waar de bedrijfsapplicatie werd uitgebreid met web services.</span></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Taak</span></p>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Verwerking van web service berichten (XML).</span></li>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Activiteiten</span></p>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>SQL en XSLT scripts geschreven die de berichten verwerken.</span></li>
+<tr style='height:22.15pt'>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:22.15pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Menzis zorgverzekeraar (2007):</span></b></p>
+<tr style='height:22.15pt'>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:22.15pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>USoft ontwikkelaar bij zorgverzekeraar Menzis waar onderhoud nodig was op onderdelen van de bedrijfsapplicatie.</span></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Taak</span></p>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Wijzingen in declaratieverwerking realiseren.</span></li>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Activiteiten </span></p>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='color:#00B0F0;margin-bottom:0cm;margin-bottom: .0001pt'>
+<span style='font-size:10.0pt;line-height:115%;color:windowtext'>SQL programmatuur (USoft) aangepast om de wijzigingen te implementeren</span></li>
+<tr style='height:22.15pt'>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:22.15pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>KPMG (2006-2007)</span></b></p>
+<tr style='height:22.15pt'>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:22.15pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Performancetester bij KPMG, waar een webapplicatie te hoge responsetijden had. </span></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Taak</span></p>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Performancetest moet knelpunten van webapplicatie vaststellen.</span></li>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Activiteiten </span></p>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='color:#00B0F0;margin-bottom:0cm;margin-bottom: .0001pt'>
+<span style='font-size:10.0pt;line-height:115%;color:windowtext'>Met Mercury LoadRunner performancemeting en stresstest uitgevoerd.</span></li>
+<tr style='height:22.15pt'>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:22.15pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Fundeon / Bouwradius (2002-2006)</span></b></p>
+<tr style='height:22.15pt'>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:22.15pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Programmeur bij Fundeon (indertijd Bouwradius), het kennis- en adviescentrum voor het opleiden en ontwikkelen van personeel in de bouw en infra. </span></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Het bedrijf heeft o.m. een eigen leerlingvolgsysteem en een kennistestsysteem ontwikkeld.</span></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Taken</span></p>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Diverse aanpassingen en uitbreidingen aan het leerlingvolgsysteem.</span></li>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Uitbreiding en verfijnde weging van het systeem voor toetsvragen (itembank).</span></li>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Verbetering van een digitaal toetssysteem.</span></li>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Bouw van een web site met klantinformatie.</span></li>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Activiteiten </span></p>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Met SQL programmatuur (USoft Developer) uitbreidingen gerealiseerd.</span></li>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Met JSP/CSS, Java en SQL het digitale toetssysteem verbeterd en uitgebreid.</span></li>
+<li class=MsoNormal style='color:#00B0F0;margin-bottom:0cm;margin-bottom: .0001pt'>
+<span style='font-size:10.0pt;line-height:115%;color:windowtext'>Website gebouwd met JSP, Java en SQL.</span></li>
+<tr style='height:22.15pt'>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:22.15pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Start Uitzendbureau (2001-2002)</span></b></p>
+<tr style='height:22.15pt'>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:22.15pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Programmeur bij Start Uitzendbureau. Bij samengaan Start en USG werd de bestaande Start bedrijfsapplicatie samengevoegd met het USG frontofficesysteem.</span></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Taak</span></p>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Dataextractie maken van het bestaande Start systeem t.b.v. het nieuwe systeem.</span></li>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Activiteiten </span></p>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>SQL*Plus scripts voor de extractie geschreven.</span></li>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>&nbsp;</span></b></p>
+<tr style='height:22.15pt'>
+<td width=95 rowspan=2 valign=top style='width:70.9pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:22.15pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:9.0pt;line-height:115%'>1990-2001</span></i></b></p>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:22.15pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>USoft</span></b></p>
+<tr style='height:22.15pt'>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:22.15pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Bij USoft Development heb ik als programmeur gebouwd aan de USoft Developer suite, een tool voor applicatieontwikkeling.</span></b></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Taken, o.m.</span></p>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Drivers voor de USoft Developer tool naar verschillende databases (Oracle, Sybase, SQL Server, ODBC)</span></li>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Bouw van modules waarmee gegevens geïmporteerd en verwerkt kunnen worden en waarmee gegevens geëxporteerd kunnen worden.</span></li>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Bouw van JDBC driver voor koppeling met applicatieserver.</span></li>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Faciliteren van dagelijkse bouw van programmatuur op verschillende platforms, waaronder Unix en VMS.</span></li>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Activiteiten</span></p>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Diverse onderdelen van de Developer tool gebouwd (in C, Oracle call interface).</span></li>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Onderdelen JDBC driver gebouwd (Java).</span></li>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Unix shell en VMS scripts geschreven.</span></li>
+<tr style='height:20.3pt'>
+<td width=95 valign=top style='width:70.9pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:20.3pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:9.0pt;line-height:115%'>1982 - 1990</span></i></b></p>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:20.3pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>D.P.G. Claessens Product Consultants / Barco Graphics</span></b></p>
+<tr style='height:20.3pt'>
+<td width=95 valign=top style='width:70.9pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:20.3pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>&nbsp;</span></p>
+<td width=517 style='width:388.0pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt;height:20.3pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Programmeur bij Claessens Product Consultants (CPC).</span></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>CPC was een innovatief grafisch ontwerpbureau, dat geavanceerde digitale systemen bouwde, zoals de Aesthedes ontwerpcomputer en een oog-volgsysteem.</span></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>&nbsp;</span></p>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Taken, o.m.</span></p>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Drivers bouwen voor custom beeldschermkaarten, plotters en afdrukapparaten.</span></li>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Ontwikkeling van digitale airbrush.</span></li>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Ontwikkelen van een communicatiemethode waarmee ontwerpmachines via een telefoonlijn synchroon kunnen werken.</span></li>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Data van een oog-volgsysteem uitlezen, opslaan en interpreteren.</span></li>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Activiteiten</span></p>
+<ul style='margin-top:0cm' type=disc>
+<li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>
+<span style='font-size:10.0pt;line-height:115%'>Ontwerp en bouw van embedded software met Pascal, C en assembler; HP 64000 en OS-9.</span></li>
+
+<span style='color:#17365D'>&nbsp;</span></b></p>
+
+<span style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif"; color:#17365D'>
+<br clear=all style='page-break-before:always'>
+
+<span style='color:#17365D'>&nbsp;</span></b></p>
+
+<span style='font-size:12.0pt;line-height:115%; color:#17365D'>Vakgerichte trainingen, cursussen</span></b></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=548 style='width:411.1pt;margin-left:5.4pt;border-collapse:collapse;border:none'>
+<tr style='height:18.05pt'>
+<td width=406 style='width:304.8pt;border:solid windowtext 1.0pt;padding: 0cm 5.4pt 0cm 5.4pt;height:18.05pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Training, cursus
+<td width=142 style='width:106.3pt;border:solid windowtext 1.0pt;border-left: none;padding:0cm 5.4pt 0cm 5.4pt;height:18.05pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Periode</p>
+<td width=406 style='width:304.8pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Diverse cursussen via internet en zelfstudie, waaronder HTML, CSS, XSL, JSP en Javascript.
+<td width=142 style='width:106.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>&nbsp;</p>
+<td width=406 style='width:304.8pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Cursussen communicatievaardigheden en neurolinguïstisch programmeren.</p>
+<td width=142 style='width:106.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>&nbsp;</p>
+<td width=406 style='width:304.8pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Cursus XML</p>
+<td width=142 style='width:106.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>2000</p>
+<td width=406 style='width:304.8pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Cursus COM Fundamentals </p>
+<td width=142 style='width:106.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>1999</p>
+<td width=406 style='width:304.8pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Cursus C++</p>
+<td width=142 style='width:106.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>1999</p>
+<td width=406 style='width:304.8pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Cursus Object Oriented Modeling</p>
+<td width=142 style='width:106.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>1997</p>
+<td width=406 style='width:304.8pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Cursus NIAM
+<td width=142 style='width:106.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>1991</p>
+<td width=406 style='width:304.8pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Cursus applicatieprogrammeur  Cobol</p>
+<td width=142 style='width:106.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>1982</p>
+
+
+<span style='font-size:12.0pt;line-height:115%; color:#17365D'>Onderwijs</span></b></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=548 style='width:411.1pt;margin-left:5.4pt;border-collapse:collapse;border:none'>
+<tr style='height:18.05pt'>
+<td width=406 style='width:304.8pt;border:solid windowtext 1.0pt;padding: 0cm 5.4pt 0cm 5.4pt;height:18.05pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Opleiding</p>
+<td width=142 style='width:106.3pt;border:solid windowtext 1.0pt;border-left: none;padding:0cm 5.4pt 0cm 5.4pt;height:18.05pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Periode</p>
+<td width=406 style='width:304.8pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Informatica UvA
+<td width=142 style='width:106.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>1981</p>
+<td width=406 style='width:304.8pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Geneeskunde UvA
+<td width=142 style='width:106.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>1977 – 1981
+<td width=406 style='width:304.8pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Scheepsbouwkunde TU Delft</p>
+<td width=142 style='width:106.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>1974 - 1976
+<td width=406 style='width:304.8pt;border:solid windowtext 1.0pt;border-top: none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Atheneum-B</p>
+<td width=142 style='width:106.3pt;border-top:none;border-left:none; border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'>Afgerond in 1974</p>
+
+*/
+
+
+
